@@ -1,0 +1,33 @@
+.header{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    transition: all .3s;
+}
+.header:hover{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.s1{
+    background-color: aqua;
+    text-decoration: none;
+    transition: all .5s;
+}
+.s1:hover{
+    background-color: blue;
+    font-size: 20px;
+}
+.s1:active{
+    color: yellow;
+}
+.s1:visited{
+    color: tomato;
+}
+.i1:focus{
+    width: 100px;
+    height: 20px;
+    outline: none;
+    box-shadow: 1px 1px 1px 1px red ;
+}
